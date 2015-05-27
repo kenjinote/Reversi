@@ -3,7 +3,7 @@
 #include <windows.h>
 #include "resource.h"
 
-TCHAR szClassName[]=TEXT("Othello");
+TCHAR szClassName[]=TEXT("Reversi");
 
 #define MASU_SIZE   50                       //マス目（石）のサイズ
 #define MASU_NUM    8                        //マス目の数（１方向に対する）
@@ -530,7 +530,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 		);
 	hWnd=CreateWindow(
 		szClassName,
-		TEXT("オセロ"),
+		TEXT("リバーシ"),
 		WS_OVERLAPPED|
 		WS_CAPTION|
 		WS_SYSMENU,
